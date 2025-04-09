@@ -1,44 +1,46 @@
-# Pixel Peep
-Find the original images from the duplicated and variotion images
+# 📸 Pixel Peep – Challenge Submission Guide
 
-Perfect! Here’s the revised Pixel Peep GitHub Submission Guide, now updated to include the fork-based workflow, and highlighting that only winners’ code will be merged into the main WeCode organization repository.
+Welcome to the official repository for **Pixel Peep**, a WeCode Community Project!  
+This document will guide you through the process of contributing to this challenge using Git and GitHub.
 
-📸 Pixel Peep – GitHub Submission Guide
+> 🔥 **Top submissions will be selected, and only the winners’ code will be merged into the main Pixel Peep repository under the WeCode organization!**
 
-Welcome to the official repository for Pixel Peep, a WeCode Community Project!
-This guide will walk you through forking the repo, creating a branch, and submitting your solution using GitHub best practices.
+---
 
-	🔥 Top submissions will be selected, and only the winners’ code will be merged into the main Pixel Peep repository under the WeCode organization!
+## 🚀 Step 1: Set Up Git & GitHub
 
-🚀 Step 1: Set Up Git & GitHub
-
-✅ 1. Install Git
-
-Download and install Git from the official site:
+### ✅ 1. Install Git  
+Download and install Git from the official site:  
 👉 https://git-scm.com/downloads
 
-✅ 2. Create a GitHub Account
-
-If you don’t have one already:
+### ✅ 2. Create a GitHub Account  
+If you don’t have one yet:  
 👉 https://github.com
 
-🍴 Step 2: Fork the Repository
-	1.	Visit the official repo:
-👉 https://github.com/WeCode-Community-Dev/pixel-peep
-	2.	Click the “Fork” button on the top-right corner to create a copy under your GitHub account.
+---
 
-📥 Step 3: Clone Your Fork
+## 🍴 Step 2: Fork the Repository
 
-Now, clone your own forked repository:
+1. Visit the official Pixel Peep repo:  
+   👉 https://github.com/WeCode-Community-Dev/pixel-peep
 
-git clone https://github.com/your-username/pixel-peep.git
+2. Click the **"Fork"** button on the top-right corner to create your own copy of the repository.
+
+---
+
+## 📥 Step 3: Clone Your Fork
+
+Clone your forked repository to your local machine:
+
+```bash
+git clone https://github.com/<your-username>/pixel-peep.git
 cd pixel-peep
 
-Replace your-username with your actual GitHub username.
+Replace <your-username> with your GitHub username.
 
 🌿 Step 4: Create a Branch with Your Name
 
-In your local repo, create a new branch under your name:
+Create a new branch under your name to organize your contributions:
 
 git checkout -b your-name-branch
 
@@ -46,21 +48,21 @@ Example:
 
 git checkout -b anjali-pixelpeep
 
-🔄 Step 5: Sync with Original Repository (Optional but Recommended)
+🔄 Step 5: Keep Your Fork in Sync (Recommended)
 
-To keep your fork updated with the latest changes:
+Keep your fork up to date with the original repo:
 
 git remote add upstream https://github.com/WeCode-Community-Dev/pixel-peep.git
 git fetch upstream
 git merge upstream/main
 
 ✏️ Step 6: Add Your Solution
-	1.	Navigate to the appropriate challenge folder.
-	2.	Upload only the relevant solution file.
-	3.	File naming format:
-	•	<problem-name>.<ext> → e.g., detect-duplicate.py, detect-duplicate.java
+	•	Navigate to the appropriate challenge folder.
+	•	Upload only the solution file.
+	•	File naming format:
+<problem-name>.<ext> (e.g., detect-duplicate.py, detect-duplicate.java)
 
-Example Folder Structure:
+📁 Example Folder Structure:
 
 pixel-peep/
 │-- Challenge-1/
@@ -70,7 +72,7 @@ pixel-peep/
 
 📤 Step 7: Commit & Push Your Code
 
-Add your file(s):
+Add the file(s):
 
 git add Challenge-1/detect-duplicate.py
 
@@ -78,38 +80,41 @@ Commit with a meaningful message:
 
 git commit -m "Added solution for Detect Duplicate"
 
-Push to your branch:
+Push your branch to your fork:
 
 git push origin your-name-branch
 
 🔁 Step 8: Create a Pull Request
-	1.	Go to your forked repo on GitHub.
-	2.	You’ll see a “Compare & pull request” option.
-	3.	Select your branch and make sure you’re comparing it with the main branch of the original WeCode repo.
-	4.	Add a clear title and brief description.
+	1.	Go to your forked repository on GitHub.
+	2.	Click “Compare & pull request”.
+	3.	Select your branch and ensure you’re comparing with main of the original repo.
+	4.	Add a clear title and description.
 	5.	Click “Create pull request”.
 
 🏆 Winner’s Code Will Be Merged!
 
-✅ The best, original, and correctly working solutions will be selected and merged into the main Pixel Peep repository under the WeCode organization.
+✅ The best, original, and correctly working solutions will be selected by reviewers and merged into the official Pixel Peep repository.
 
-So make sure your code:
-	•	Works perfectly
-	•	Is clean and well-documented
-	•	Follows naming and folder structure conventions
+Make sure your code:
+	•	Works correctly and efficiently
+	•	Is clean and well-commented
+	•	Follows naming and structure conventions
 
 ⚠️ Important Guidelines
-
-✅ Fork the repo first – do not push directly to the original repo
-✅ Always work in your own branch
-✅ Upload only the necessary solution file(s)
-✅ Use clear and meaningful commit messages
-✅ Submit a pull request only from your fork
-✅ Keep your fork updated with changes from the original repo
+	•	✅ Fork the repo first – Do not push directly to the original repo.
+	•	✅ Work on a personal branch named after you.
+	•	✅ Upload only the relevant solution file(s).
+	•	✅ Use clear and concise commit messages.
+	•	✅ Keep your fork updated regularly.
+	•	✅ Submit a pull request for every challenge.
 
 💬 Need Help?
 
-Reach out to us via the WeCode Community Discord or forums.
+Reach out to us on the WeCode Community Discord or Forum for any questions or assistance.
 
 Happy Peeping! 👀
-Let your code stand out — only the best get merged! 🌟
+Let your code shine — only the best get merged! 🌟
+
+---
+
+Let me know if you want a badge section, table of contents, or any visuals (like a logo or banner) added to this README as well!
