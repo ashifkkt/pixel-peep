@@ -9,7 +9,7 @@ This document will guide you through the process of contributing to this challen
 
 ## 🚀 Step 1: Set Up Git & GitHub
 
-### ✅ 1. Install Git  
+## ✅ 1. Install Git  
 Download and install Git from the official site:  
 👉 https://git-scm.com/downloads
 
